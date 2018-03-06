@@ -1,0 +1,12 @@
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\bin\Debug\ProyectoProbabilidad.exe.config
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\bin\Debug\ProyectoProbabilidad.exe
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\bin\Debug\ProyectoProbabilidad.pdb
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.csprojResolveAssemblyReference.cache
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.Form1.resources
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.Properties.Resources.resources
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.csproj.GenerateResource.Cache
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.csproj.CoreCompileInputs.cache
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.exe
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\obj\Debug\ProyectoProbabilidad.pdb
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\bin\Debug\MetroSuite.dll
+C:\Users\Shado\OneDrive\Documentos\Visual Studio 2017\Proyects\ProyectoProbabilidad\ProyectoProbabilidad\bin\Debug\Bunifu_UI_v1.52.dll
