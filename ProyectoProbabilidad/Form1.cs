@@ -1855,5 +1855,74 @@ namespace ProyectoProbabilidad
             probabilidadDisplay.ResetText();
             probabilidadDisplay.Text = total.ToString() ;
         }
+
+        private void blimpiar_Click(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 14; i++) {
+                cartasSeleccionadas = 0;
+                activoCorazon[i] = false;
+                activoDiamantes[i] = false;
+                activoPicas[i] = false;
+                activoTrebol[i] = false;
+                probabilidadDisplay.ResetText();
+                //corazones rojos
+                CorazonesRojos.BorderStyle = BorderStyle.None;
+                CorazonesRojos2.BorderStyle = BorderStyle.None;
+                CorazonesRojos3.BorderStyle = BorderStyle.None;
+                CorazonesRojos4.BorderStyle = BorderStyle.None;
+                CorazonesRojos5.BorderStyle = BorderStyle.None;
+                CorazonesRojos6.BorderStyle = BorderStyle.None;
+                CorazonesRojos7.BorderStyle = BorderStyle.None;
+                CorazonesRojos8.BorderStyle = BorderStyle.None;
+                CorazonesRojos9.BorderStyle = BorderStyle.None;
+                CorazonesRojosA.BorderStyle = BorderStyle.None;
+                CorazonesRojosJ.BorderStyle = BorderStyle.None;
+                CorazonesRojosQ.BorderStyle = BorderStyle.None;
+                CorazonesRojosK.BorderStyle = BorderStyle.None;
+                //corazones negros
+                CorazonesNegros.BorderStyle = BorderStyle.None;
+                CorazonesNegros2.BorderStyle = BorderStyle.None;
+                CorazonesNegros3.BorderStyle = BorderStyle.None;
+                CorazonesNegros4.BorderStyle = BorderStyle.None;
+                CorazonesNegros5.BorderStyle = BorderStyle.None;
+                CorazonesNegros6.BorderStyle = BorderStyle.None;
+                CorazonesNegros7.BorderStyle = BorderStyle.None;
+                CorazonesNegros8.BorderStyle = BorderStyle.None;
+                CorazonesNegros9.BorderStyle = BorderStyle.None;
+                bunifuImageButton11.BorderStyle = BorderStyle.None;
+                CorazonesNegrosJ.BorderStyle = BorderStyle.None;
+                CorazonesNegrosQ.BorderStyle = BorderStyle.None;
+                CorazonesNegrosK.BorderStyle = BorderStyle.None;
+                //diamantes
+                DiamantesRojos.BorderStyle = BorderStyle.None;
+                DiamantesRojos2.BorderStyle = BorderStyle.None;
+                DiamantesRojos3.BorderStyle = BorderStyle.None;
+                DiamantesRojos4.BorderStyle = BorderStyle.None;
+                DiamantesRojos5.BorderStyle = BorderStyle.None;
+                DiamantesRojos6.BorderStyle = BorderStyle.None;
+                DiamantesRojos7.BorderStyle = BorderStyle.None;
+                DiamantesRojos8.BorderStyle = BorderStyle.None;
+                DiamantesRojos9.BorderStyle = BorderStyle.None;
+                DiamantesRojosA.BorderStyle = BorderStyle.None;
+                DiamantesRojosJ.BorderStyle = BorderStyle.None;
+                DiamantesRojosQ.BorderStyle = BorderStyle.None;
+                DiamantesRojosK.BorderStyle = BorderStyle.None;
+                //trebol
+                TrebolNegro.BorderStyle = BorderStyle.None;
+                TrebolNegro2.BorderStyle = BorderStyle.None;
+                TrebolNegro3.BorderStyle = BorderStyle.None;
+                TrebolNegro4.BorderStyle = BorderStyle.None;
+                TrebolNegro5.BorderStyle = BorderStyle.None;
+                TrebolNegro6.BorderStyle = BorderStyle.None;
+                TrebolNegro7.BorderStyle = BorderStyle.None;
+                TrebolNegro8.BorderStyle = BorderStyle.None;
+                TrebolNegro9.BorderStyle = BorderStyle.None;
+                TrebolNegroA.BorderStyle = BorderStyle.None;
+                TrebolNegroQ.BorderStyle = BorderStyle.None;
+                TrebolNegroJ.BorderStyle = BorderStyle.None;
+                TrebolNegroK.BorderStyle = BorderStyle.None;
+               
+            }
+        }
     }
 }

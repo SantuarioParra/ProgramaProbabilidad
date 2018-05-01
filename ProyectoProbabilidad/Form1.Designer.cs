@@ -83,6 +83,7 @@
             this.CorazonesRojos = new Bunifu.Framework.UI.BunifuImageButton();
             this.bunifuCustomLabel1 = new Bunifu.Framework.UI.BunifuCustomLabel();
             this.probabilidadDisplay = new Bunifu.Framework.UI.BunifuCustomLabel();
+            this.blimpiar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.CorazonesNegros)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CorazonesNegros2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.CorazonesNegros3)).BeginInit();
@@ -868,24 +869,36 @@
             // bunifuCustomLabel1
             // 
             this.bunifuCustomLabel1.AutoSize = true;
-            this.bunifuCustomLabel1.Font = new System.Drawing.Font("OCR A Extended", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bunifuCustomLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bunifuCustomLabel1.ForeColor = System.Drawing.Color.White;
             this.bunifuCustomLabel1.Location = new System.Drawing.Point(12, 369);
             this.bunifuCustomLabel1.Name = "bunifuCustomLabel1";
-            this.bunifuCustomLabel1.Size = new System.Drawing.Size(559, 20);
+            this.bunifuCustomLabel1.Size = new System.Drawing.Size(566, 24);
             this.bunifuCustomLabel1.TabIndex = 52;
             this.bunifuCustomLabel1.Text = "PROBABILIDAD DE OBTENER LAS CARTAS SELECCIONADAS: ";
             // 
             // probabilidadDisplay
             // 
             this.probabilidadDisplay.AutoSize = true;
-            this.probabilidadDisplay.Font = new System.Drawing.Font("OCR A Extended", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.probabilidadDisplay.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.probabilidadDisplay.ForeColor = System.Drawing.Color.White;
-            this.probabilidadDisplay.Location = new System.Drawing.Point(560, 366);
+            this.probabilidadDisplay.Location = new System.Drawing.Point(584, 368);
             this.probabilidadDisplay.Name = "probabilidadDisplay";
-            this.probabilidadDisplay.Size = new System.Drawing.Size(22, 23);
+            this.probabilidadDisplay.Size = new System.Drawing.Size(23, 25);
             this.probabilidadDisplay.TabIndex = 53;
             this.probabilidadDisplay.Text = "0";
+            // 
+            // blimpiar
+            // 
+            this.blimpiar.BackColor = System.Drawing.Color.Black;
+            this.blimpiar.ForeColor = System.Drawing.Color.White;
+            this.blimpiar.Location = new System.Drawing.Point(922, 389);
+            this.blimpiar.Name = "blimpiar";
+            this.blimpiar.Size = new System.Drawing.Size(75, 23);
+            this.blimpiar.TabIndex = 54;
+            this.blimpiar.Text = "Limpiar";
+            this.blimpiar.UseVisualStyleBackColor = false;
+            this.blimpiar.Click += new System.EventHandler(this.blimpiar_Click);
             // 
             // Form1
             // 
@@ -893,6 +906,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.ClientSize = new System.Drawing.Size(1017, 430);
+            this.Controls.Add(this.blimpiar);
             this.Controls.Add(this.probabilidadDisplay);
             this.Controls.Add(this.bunifuCustomLabel1);
             this.Controls.Add(this.CorazonesRojosA);
@@ -1064,6 +1078,7 @@
         private Bunifu.Framework.UI.BunifuImageButton CorazonesRojos;
         private Bunifu.Framework.UI.BunifuCustomLabel bunifuCustomLabel1;
         private Bunifu.Framework.UI.BunifuCustomLabel probabilidadDisplay;
+        private System.Windows.Forms.Button blimpiar;
     }
 }
 
